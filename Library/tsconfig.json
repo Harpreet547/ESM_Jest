@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "useDefineForClassFields": true,
+      "lib": ["ES2015", "DOM", "DOM.Iterable"],
+      "module": "ESNext",
+      "skipLibCheck": true,
+      "outDir": "./dist",
+
+      /* Bundler mode */
+      "esModuleInterop": true,
+      "moduleResolution": "Bundler",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": false,
+      "emitDeclarationOnly": false,
+      "jsx": "react-jsx",
+  
+      /* Linting */
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      "declaration": true,
+    },
+    "include": ["src"],
+  }
